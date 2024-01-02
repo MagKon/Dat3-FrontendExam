@@ -5,6 +5,7 @@ import HigherOrder from "./Javascript/2HigherOrder/HigherOrder";
 import Bubbling from "./Javascript/7Bubbling/Bubbling";
 import Components from "./React/1Components/Components";
 import JSXExample from "./React/2JSX/JSXExample";
+import LiftingState from "./React/10LiftingState/LiftingState";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
@@ -14,6 +15,7 @@ const routes = [
   { path: "/react", content: "React examples" },
   { path: "/react/components", content: <Components /> },
   { path: "/react/jsx", content: <JSXExample /> },
+  { path: "/react/liftingstate", content: <LiftingState /> },
 ];
 
 const Overview = () => {
