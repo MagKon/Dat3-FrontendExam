@@ -9,13 +9,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Overview />} />
-          <Route path="/javascript" element={<Javascript />}>
-            <Route path="prototype" element={<Prototype />} />
-          </Route>
-          <Route path="*" element={<h1>404: Page not found</h1>} />
-        </Routes>
+        <Overview />
       </BrowserRouter>
     </>
   );
