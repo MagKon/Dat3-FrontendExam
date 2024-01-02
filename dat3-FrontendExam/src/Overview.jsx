@@ -4,6 +4,7 @@ import Prototype from "./Javascript/1Prototypes/prototype";
 import HigherOrder from "./Javascript/2HigherOrder/HigherOrder";
 import Bubbling from "./Javascript/7Bubbling/Bubbling";
 import Components from "./React/1Components/Components";
+import JSXExample from "./React/2JSX/JSXExample";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
@@ -12,6 +13,7 @@ const routes = [
   { path: "/javascript/bubbling", content: <Bubbling /> },
   { path: "/react", content: "React examples" },
   { path: "/react/components", content: <Components /> },
+  { path: "/react/jsx", content: <JSXExample /> },
 ];
 
 const Overview = () => {
