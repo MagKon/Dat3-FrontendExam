@@ -2,10 +2,12 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Prototype from "./Javascript/1Prototypes/prototype";
 import HigherOrder from "./Javascript/2HigherOrder/HigherOrder";
+import Bubbling from "./Javascript/7Bubbling/Bubbling";
 
 const routes = [
   { path: "/javascript/prototype", content: <Prototype /> },
   { path: "/javascript/higherorder", content: <HigherOrder /> },
+  { path: "/javascript/bubbling", content: <Bubbling /> },
   { path: "/example1", content: "Example 1 content" },
   { path: "/example2", content: "Example 2 content" },
   { path: "/example3", content: "Example 3 content" },
