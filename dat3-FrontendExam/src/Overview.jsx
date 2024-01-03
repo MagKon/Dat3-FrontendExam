@@ -6,11 +6,13 @@ import Bubbling from "./Javascript/7Bubbling/Bubbling";
 import Components from "./React/1Components/Components";
 import JSXExample from "./React/2JSX/JSXExample";
 import LiftingState from "./React/10LiftingState/LiftingState";
+import Promises from "./Javascript/5Promise/Promises";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
   { path: "/javascript/prototype", content: <Prototype /> },
   { path: "/javascript/higherorder", content: <HigherOrder /> },
+  { path: "/javascript/promises", content: <Promises /> },
   { path: "/javascript/bubbling", content: <Bubbling /> },
   { path: "/react", content: "React examples" },
   { path: "/react/components", content: <Components /> },
