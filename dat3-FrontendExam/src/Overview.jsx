@@ -7,6 +7,7 @@ import Components from "./React/1Components/Components";
 import JSXExample from "./React/2JSX/JSXExample";
 import LiftingState from "./React/10LiftingState/LiftingState";
 import Promises from "./Javascript/5Promise/Promises";
+import UseEffectsExample from "./React/3UseEffects/UseEffectsExample";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
@@ -17,6 +18,7 @@ const routes = [
   { path: "/react", content: "React examples" },
   { path: "/react/components", content: <Components /> },
   { path: "/react/jsx", content: <JSXExample /> },
+  { path: "/react/useeffects", content: <UseEffectsExample /> },
   { path: "/react/liftingstate", content: <LiftingState /> },
 ];
 
