@@ -9,6 +9,7 @@ import LiftingState from "./React/10LiftingState/LiftingState";
 import Promises from "./Javascript/5Promise/Promises";
 import UseEffectsExample from "./React/3UseEffects/UseEffectsExample";
 import HandlingEvents from "./React/4HandlingEvents/HandlingEvents";
+import ConditionalRendering from "./React/5ConditionalRendering/ConditionalRendering";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
@@ -21,6 +22,7 @@ const routes = [
   { path: "/react/jsx", content: <JSXExample /> },
   { path: "/react/useeffects", content: <UseEffectsExample /> },
   { path: "/react/handlingevents", content: <HandlingEvents /> },
+  { path: "/react/conditionalrendering", content: <ConditionalRendering /> },
   { path: "/react/liftingstate", content: <LiftingState /> },
 ];
 
