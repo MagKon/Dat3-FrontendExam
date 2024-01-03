@@ -6,6 +6,7 @@ const UseEffectsExample = () => {
    */
   const [pageLoaded, setPageLoaded] = useState(false);
   const [message, setMessage] = useState("I'm a message");
+  const [useEffectCalled, setUseEffectCalled] = useState(0);
 
   useEffect(() => {
     console.log("useEffect 1 called");
@@ -21,6 +22,7 @@ const UseEffectsExample = () => {
 
   useEffect(() => {
     console.log("useEffect 2 called");
+    setUseEffectCalled(useEffectCalled + 1);
     return () => {
       console.log("cleanup");
     };
@@ -34,6 +36,7 @@ const UseEffectsExample = () => {
       <button onClick={() => setMessage("I'm a new message")}>
         Change message
       </button>
+      <span> {useEffectCalled} </span>
     </div>
   );
 };
