@@ -10,6 +10,7 @@ import Promises from "./Javascript/5Promise/Promises";
 import UseEffectsExample from "./React/3UseEffects/UseEffectsExample";
 import HandlingEvents from "./React/4HandlingEvents/HandlingEvents";
 import ConditionalRendering from "./React/5ConditionalRendering/ConditionalRendering";
+import Storage from "./Javascript/8Storage/Storage";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
@@ -17,6 +18,7 @@ const routes = [
   { path: "/javascript/higherorder", content: <HigherOrder /> },
   { path: "/javascript/promises", content: <Promises /> },
   { path: "/javascript/bubbling", content: <Bubbling /> },
+  { path: "/javascript/storage", content: <Storage /> },
   { path: "/react", content: "React examples" },
   { path: "/react/components", content: <Components /> },
   { path: "/react/jsx", content: <JSXExample /> },
