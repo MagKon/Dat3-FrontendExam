@@ -11,6 +11,7 @@ import UseEffectsExample from "./React/3UseEffects/UseEffectsExample";
 import HandlingEvents from "./React/4HandlingEvents/HandlingEvents";
 import ConditionalRendering from "./React/5ConditionalRendering/ConditionalRendering";
 import Storage from "./Javascript/8Storage/Storage";
+import ListAndKeys from "./React/6ListsAndKeys/ListsAndKeys";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
@@ -25,6 +26,7 @@ const routes = [
   { path: "/react/useeffects", content: <UseEffectsExample /> },
   { path: "/react/handlingevents", content: <HandlingEvents /> },
   { path: "/react/conditionalrendering", content: <ConditionalRendering /> },
+  { path: "/react/listsandkeys", content: <ListAndKeys /> },
   { path: "/react/liftingstate", content: <LiftingState /> },
 ];
 
