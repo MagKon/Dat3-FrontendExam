@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 const UseEffectsExample = () => {
   /**
    * useEffects run twice, possibly because of the way the routes are set up.
+   * When React runs in dev mode, it runs twice.
    */
   const [pageLoaded, setPageLoaded] = useState(false);
   const [message, setMessage] = useState("I'm a message");
