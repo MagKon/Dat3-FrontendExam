@@ -11,8 +11,8 @@ const FlexboxGrid = () => {
           <div className="item">Item 2</div>
           <div className="item">Item 3</div>
           <div className="item">Item 4</div>
-          <div className="item">Item 4</div>
-          <div className="item">Item 4</div>
+          <div className="item">Item 5</div>
+          <div className="item">Item 6</div>
         </div>
       </div>
       {/* This examples shows a grid with a responsive navbar */}

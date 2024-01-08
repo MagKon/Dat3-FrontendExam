@@ -11,11 +11,12 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .item {
-  flex: 1 0 21%; /* This will create a 5-column grid */
+  flex: 1 0 21%; /* This will create a 4-column grid */
   margin: 1%;
   padding: 1%;
   box-sizing: border-box;
