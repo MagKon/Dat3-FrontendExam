@@ -1,17 +1,17 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Prototype from "./Javascript/1Prototypes/prototype";
-import HigherOrder from "./Javascript/2HigherOrder/HigherOrder";
-import Bubbling from "./Javascript/7Bubbling/Bubbling";
-import Components from "./React/1Components/Components";
-import JSXExample from "./React/2JSX/JSXExample";
-import LiftingState from "./React/10LiftingState/LiftingState";
-import Promises from "./Javascript/5Promise/Promises";
-import UseEffectsExample from "./React/3UseEffects/UseEffectsExample";
-import HandlingEvents from "./React/4HandlingEvents/HandlingEvents";
-import ConditionalRendering from "./React/5ConditionalRendering/ConditionalRendering";
-import Storage from "./Javascript/8Storage/Storage";
-import ListAndKeys from "./React/6ListsAndKeys/ListsAndKeys";
+import HigherOrder from "./Questions/Question 1/2HigherOrder/HigherOrder";
+import Bubbling from "./Questions/Question 8/7Bubbling/Bubbling";
+import Components from "./Questions/Question 1/1Components/Components";
+import JSXExample from "./Questions/Question 2/2JSX/JSXExample";
+import LiftingState from "./Questions/Question 11/10LiftingState/LiftingState";
+import Promises from "./Questions/Question 4/5Promise/Promises";
+import UseEffectsExample from "./Questions/Question 6/3UseEffects/UseEffectsExample";
+import HandlingEvents from "./Questions/Question 7/4HandlingEvents/HandlingEvents";
+import ConditionalRendering from "./Questions/Question 5/5ConditionalRendering/ConditionalRendering";
+import Storage from "./Questions/Question 6/8Storage/Storage";
+import ListAndKeys from "./Questions/Question 8/6ListsAndKeys/ListsAndKeys";
 
 const routes = [
   { path: "/javascript", content: "Javascript examples" },
