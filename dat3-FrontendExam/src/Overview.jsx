@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Components from "./Questions/Question 1/1Components/Components";
 import HigherOrder from "./Questions/Question 1/2HigherOrder/HigherOrder";
-import JSXExample from "./Questions/Question 2/2JSX/JSXExample";
+import JSXExample from "./Questions/Question 2/JSX/JSXExample";
 import Callback from "./Questions/Question 2/Callback/Callback";
 import Props from "./Questions/Question 3/Props/Props";
 import Promises from "./Questions/Question 4/Promise/Promises";
