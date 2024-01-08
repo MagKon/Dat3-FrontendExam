@@ -1,6 +1,6 @@
 import React from "react";
 
-const HigherOrder = () => {
+const HigherOrder13 = () => {
   let arr = ["Peter", "Magnus", "Yusuf", "Sidsel"];
 
   // Higher order function that takes an array and a callback function
@@ -38,4 +38,4 @@ const HigherOrder = () => {
   );
 };
 
-export default HigherOrder;
+export default HigherOrder13;

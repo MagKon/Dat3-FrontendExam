@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ConditionalRendering() {
+function ConditionalRendering12() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
@@ -15,4 +15,4 @@ function ConditionalRendering() {
   );
 }
 
-export default ConditionalRendering;
+export default ConditionalRendering12;

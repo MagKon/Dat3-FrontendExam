@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Promises() {
+function Promises12() {
   const [count, setCount] = useState(0);
 
   const fetchData = () => {
@@ -40,4 +40,4 @@ function Promises() {
   );
 }
 
-export default Promises;
+export default Promises12;

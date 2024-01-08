@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Child1 from "./Child1";
 import Child2 from "./Child2";
 
-const Props = () => {
+const Props13 = () => {
   const [value, setValue] = useState("");
 
   const handleChange = (event) => {
@@ -17,4 +17,4 @@ const Props = () => {
   );
 };
 
-export default Props;
+export default Props13;
