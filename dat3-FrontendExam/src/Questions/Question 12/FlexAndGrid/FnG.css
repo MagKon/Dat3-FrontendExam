@@ -1,0 +1,75 @@
+/* FlexboxGrid.css */
+
+.container {
+  width: 600px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1 0 21%; /* This will create a 4-column grid */
+  margin: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  color: black;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .item {
+    flex: 1 0 31%; /* This will create a 3-column grid */
+  }
+}
+
+@media (max-width: 800px) {
+  .item {
+    flex: 1 0 46%; /* This will create a 2-column grid */
+  }
+}
+
+@media (max-width: 650px) {
+  .item {
+    flex: 1 0 96%; /* This will create a 1-column grid */
+  }
+}
+
+/* FnG.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+.nav-item:hover {
+  background-color: #dee2e6;
+}

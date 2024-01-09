@@ -16,6 +16,7 @@ import Bubbling from "./Questions/Question 8/Bubbling/Bubbling";
 import LiftingState from "./Questions/Question 11/LiftingState/LiftingState";
 import Promises12 from "./Questions/Question 12/Promise/Promises";
 import ConditionalRendering12 from "./Questions/Question 12/ConditionalRendering";
+import FlexboxGrid12 from "./Questions/Question 12/FlexAndGrid/FlexboxGrid";
 import HigherOrder13 from "./Questions/Question 13/HigherOrder/HigherOrder";
 import Props13 from "./Questions/Question 13/Props/Props";
 import "./assets/Overview.css";
@@ -52,6 +53,7 @@ const routes = [
     path: "/question12/ConditionalRendering",
     content: <ConditionalRendering12 />,
   },
+  { path: "/question12/FlexboxGrid", content: <FlexboxGrid12 /> },
   {},
   { path: "/question13/HigherOrder", content: <HigherOrder13 /> },
   { path: "/question13/Props", content: <Props13 /> },
