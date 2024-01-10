@@ -2,7 +2,7 @@
 - [x] Question 2
 - [ ] Question 3
 - [x] Question 4
-- [ ] Question 5
+- [x] Question 5
 - [x] Question 6
 - [x] Question 7
 - [ ] Question 8
