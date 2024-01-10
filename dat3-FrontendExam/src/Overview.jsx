@@ -9,6 +9,7 @@ import FlexboxGrid from "./Questions/Question 2/FlexAndGrid/FlexboxGrid";
 import Props from "./Questions/Question 3/Props/Props";
 import Promises from "./Questions/Question 4/Promise/Promises";
 import ConditionalRendering from "./Questions/Question 5/ConditionalRendering/ConditionalRendering";
+import AsyncExample from "./Questions/Question 5/Async/AsyncExample";
 import UseEffectsExample from "./Questions/Question 6/UseEffects/UseEffectsExample";
 import Storage from "./Questions/Question 6/Storage/Storage";
 import HandlingEvents from "./Questions/Question 7/HandlingEvents/HandlingEvents";
@@ -42,6 +43,7 @@ const routes = [
     path: "/question5/ConditionalRendering",
     content: <ConditionalRendering />,
   },
+  { path: "/question5/AsyncExample", content: <AsyncExample /> },
   {},
   { path: "/question6/UseEffectsExample", content: <UseEffectsExample /> },
   { path: "/question6/Storage", content: <Storage /> },
