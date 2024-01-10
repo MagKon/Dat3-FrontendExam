@@ -26,3 +26,19 @@ Or it can be written directly in the JSX:
 { x != null && x}
 
 # Describe conceptually the typical flow of using JWTs for user authentication in a React application.
+
+The typical flow of using JWTs for user authentication in a React application involves the following steps:
+
+1. User Registration: The user provides their credentials (e.g., username and password) to the server. The server verifies the credentials and generates a JWT token.
+
+2. Token Storage: The server sends the JWT token back to the client, and the client stores the token securely (e.g., in local storage or a cookie).
+
+3. Protected Routes: The client includes the JWT token in the Authorization header of each subsequent request to protected routes.
+
+4. Token Verification: The server receives the request and verifies the JWT token's authenticity and integrity. If the token is valid, the server processes the request; otherwise, it returns an error.
+
+5. User Logout: When the user logs out, the client removes the JWT token from storage, effectively invalidating it.
+
+This flow ensures that only authenticated users with valid JWT tokens can access protected routes in the React application.
+
+For example: DND-Builder - MyProfile
