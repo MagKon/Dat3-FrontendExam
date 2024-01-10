@@ -8,6 +8,6 @@
 - [ ] Question 8
 - [ ] Question 9
 - [ ] Question 10
-- [ ] Question 11
+- [x] Question 11
 - [x] Question 12
 - [x] Question 13

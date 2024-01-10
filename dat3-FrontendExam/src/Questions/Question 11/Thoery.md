@@ -23,3 +23,11 @@ One downside is the complexity which is added to the parent component. Another i
 To me:
 
 While examples will be in other files, it could be useful to mention some key techniques used in responsive design, such as fluid grid layouts, flexible images and media queries.
+
+Examples:
+
+Question 2 Flex
+
+DND-Builder Login
+
+In small parts, the navbar
