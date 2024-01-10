@@ -2,6 +2,7 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Components from "./Questions/Question 1/Components/Components";
 import HigherOrder from "./Questions/Question 1/HigherOrder/HigherOrder";
+import Example from "./Questions/Question 1/Routing/Example";
 import JSXExample from "./Questions/Question 2/JSX/JSXExample";
 import Callback from "./Questions/Question 2/Callback/Callback";
 import FlexboxGrid from "./Questions/Question 2/FlexAndGrid/FlexboxGrid";
@@ -27,6 +28,7 @@ import "./assets/Overview.css";
 const routes = [
   { path: "/question1/Components", content: <Components /> },
   { path: "/question1/HigherOrder", content: <HigherOrder /> },
+  { path: "/question1/Routing", content: <Example /> },
   {},
   { path: "/question2/JSXExample", content: <JSXExample /> },
   { path: "/question2/Callback", content: <Callback /> },
