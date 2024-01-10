@@ -17,6 +17,7 @@ import Login from "./Questions/Question 7/Login/Login";
 import ListAndKeys from "./Questions/Question 8/ListsAndKeys/ListsAndKeys";
 import Bubbling from "./Questions/Question 8/Bubbling/Bubbling";
 import UseEffectsExample10 from "./Questions/Question 10/UseEffects/UseEffectsExample";
+import AsyncExample11 from "./Questions/Question 11/Async/AsyncExample";
 import LiftingState from "./Questions/Question 11/LiftingState/LiftingState";
 import Promises12 from "./Questions/Question 12/Promise/Promises";
 import ConditionalRendering12 from "./Questions/Question 12/ConditionalRendering";
@@ -56,6 +57,7 @@ const routes = [
   {},
   { path: "/question10/UseEffectsExample", content: <UseEffectsExample10 /> },
   {},
+  { path: "/question11/AsyncExample", content: <AsyncExample11 /> },
   { path: "/question11/LiftingState", content: <LiftingState /> },
   {},
   { path: "/question12/Promises", content: <Promises12 /> },
