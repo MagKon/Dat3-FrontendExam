@@ -1,9 +1,9 @@
-- [ ] Question 1
+- [x] Question 1
 - [x] Question 2
 - [ ] Question 3
 - [x] Question 4
 - [ ] Question 5
-- [ ] Question 6
+- [x] Question 6
 - [x] Question 7
 - [ ] Question 8
 - [ ] Question 9
