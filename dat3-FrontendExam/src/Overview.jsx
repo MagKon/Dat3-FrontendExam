@@ -14,12 +14,14 @@ import HandlingEvents from "./Questions/Question 7/HandlingEvents/HandlingEvents
 import Login from "./Questions/Question 7/Login/Login";
 import ListAndKeys from "./Questions/Question 8/ListsAndKeys/ListsAndKeys";
 import Bubbling from "./Questions/Question 8/Bubbling/Bubbling";
+import UseEffectsExample10 from "./Questions/Question 10/UseEffects/UseEffectsExample";
 import LiftingState from "./Questions/Question 11/LiftingState/LiftingState";
 import Promises12 from "./Questions/Question 12/Promise/Promises";
 import ConditionalRendering12 from "./Questions/Question 12/ConditionalRendering";
 import FlexboxGrid12 from "./Questions/Question 12/FlexAndGrid/FlexboxGrid";
 import HigherOrder13 from "./Questions/Question 13/HigherOrder/HigherOrder";
 import Props13 from "./Questions/Question 13/Props/Props";
+import Login13 from "./Questions/Question 13/Login/Login";
 import "./assets/Overview.css";
 
 const routes = [
@@ -48,6 +50,8 @@ const routes = [
   { path: "/question8/Bubbling", content: <Bubbling /> },
   { path: "/question8/ListAndKeys", content: <ListAndKeys /> },
   {},
+  { path: "/question10/UseEffectsExample", content: <UseEffectsExample10 /> },
+  {},
   { path: "/question11/LiftingState", content: <LiftingState /> },
   {},
   { path: "/question12/Promises", content: <Promises12 /> },
@@ -59,6 +63,7 @@ const routes = [
   {},
   { path: "/question13/HigherOrder", content: <HigherOrder13 /> },
   { path: "/question13/Props", content: <Props13 /> },
+  { path: "/question13/Login", content: <Login13 /> },
 ];
 
 const Overview = () => {

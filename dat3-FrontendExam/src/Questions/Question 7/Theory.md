@@ -19,3 +19,7 @@ Overall, while the basic concepts of event handling are similar in React and van
 ## Show examples of how to handle form submit events, and how to handle input change events.
 
 # Describe and show how we log in a user in React with JWT.
+
+Call your login source, in this case a Javalin App, which then attempts to login the user in the DB.
+If the user is found with name and password, a JWT is encoded. The JWT is then send back to the frontend.
+The frontend then keeps the token, which it can then use for future calls as it can be used to verify that the user is logged in.

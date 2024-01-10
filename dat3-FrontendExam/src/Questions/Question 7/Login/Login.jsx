@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import facade from "./api.mjs";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Login() {
   const [username, setUsername] = useState("");
@@ -20,34 +21,58 @@ export default function Login() {
 
   return (
     <>
-      <h2>Login</h2>
-      <p>{token}</p>
-      <div>
-        <input
-          type="text"
-          placeholder="Username"
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button onClick={handleLogin}>Login</button>
+      <div className="container">
+        <h2>Login</h2>
+        <p>{token}</p>
+        <div className="row">
+          <div className="col">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Username"
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </div>
+          <div className="col">
+            <input
+              type="password"
+              className="form-control"
+              placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+          <div className="col">
+            <button className="btn btn-primary" onClick={handleLogin}>
+              Login
+            </button>
+          </div>
+        </div>
       </div>
-      <h2>Register</h2>
-      <div>
-        <input
-          type="text"
-          placeholder="Username"
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button onClick={handleRegister}>Register</button>
+      <div className="container">
+        <h2>Register</h2>
+        <div className="row">
+          <div className="col">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Username"
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </div>
+          <div className="col">
+            <input
+              type="password"
+              className="form-control"
+              placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+          <div className="col">
+            <button className="btn btn-primary" onClick={handleRegister}>
+              Register
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
