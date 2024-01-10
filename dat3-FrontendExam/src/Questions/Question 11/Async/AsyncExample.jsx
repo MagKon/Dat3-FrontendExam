@@ -9,7 +9,7 @@ const fetchData = () => {
   });
 };
 
-const AsyncExample = () => {
+const AsyncExample11 = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -61,4 +61,4 @@ const AsyncExample = () => {
   );
 };
 
-export default AsyncExample;
+export default AsyncExample11;
