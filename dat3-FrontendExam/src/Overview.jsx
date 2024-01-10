@@ -11,6 +11,7 @@ import ConditionalRendering from "./Questions/Question 5/ConditionalRendering/Co
 import UseEffectsExample from "./Questions/Question 6/UseEffects/UseEffectsExample";
 import Storage from "./Questions/Question 6/Storage/Storage";
 import HandlingEvents from "./Questions/Question 7/HandlingEvents/HandlingEvents";
+import Login from "./Questions/Question 7/Login/Login";
 import ListAndKeys from "./Questions/Question 8/ListsAndKeys/ListsAndKeys";
 import Bubbling from "./Questions/Question 8/Bubbling/Bubbling";
 import LiftingState from "./Questions/Question 11/LiftingState/LiftingState";
@@ -42,6 +43,7 @@ const routes = [
   { path: "/question6/Storage", content: <Storage /> },
   {},
   { path: "/question7/HandlingEvents", content: <HandlingEvents /> },
+  { path: "/question7/Login", content: <Login /> },
   {},
   { path: "/question8/Bubbling", content: <Bubbling /> },
   { path: "/question8/ListAndKeys", content: <ListAndKeys /> },

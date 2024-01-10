@@ -18,4 +18,4 @@ Overall, while the basic concepts of event handling are similar in React and van
 
 ## Show examples of how to handle form submit events, and how to handle input change events.
 
-#
+# Describe and show how we log in a user in React with JWT.
