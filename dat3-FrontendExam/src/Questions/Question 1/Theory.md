@@ -20,4 +20,8 @@ Components in React will also often take properties, shorted to props. These all
 
 ## Explain what React Router is and its purpose in a React application.
 
+React Router is a library for managing and handling routes in a React application. It allows you to create multiple routes in your application and render different components based on the current URL path. This is essential for creating single-page applications (SPAs) where you want to mimic the behavior of multiple pages without causing a full page refresh.
+
+React Router provides several components such as BrowserRouter, Route(s) and Link that help in managing routing in a React application.
+
 ## Show an example of how routing works in React
