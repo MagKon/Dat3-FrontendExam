@@ -1,13 +1,13 @@
 - [x] Question 1
 - [x] Question 2
-- [ ] Question 3
+- [ ] Question 3 - Deployement
 - [x] Question 4
 - [x] Question 5
 - [x] Question 6
 - [x] Question 7
-- [ ] Question 8
-- [ ] Question 9
-- [ ] Question 10
+- [ ] Question 8 - Deployement
+- [ ] Question 9 - React - Routing
+- [ ] Question 10 - JS - React - CORS
 - [x] Question 11
 - [x] Question 12
 - [x] Question 13
