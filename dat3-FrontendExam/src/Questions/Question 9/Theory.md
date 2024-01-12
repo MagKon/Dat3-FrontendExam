@@ -14,4 +14,30 @@ Green lines is how the global variable ‘text’ is seen. The red line is how t
 
 ## Explain how sub routing is working
 
+Sub-routing, also known as nested routing, is a concept in routing where certain routes are defined within other routes. This is particularly useful in scenarios where a part of the application has its own sub-sections, each with its own unique view.
+
+In React Router, this is achieved by defining a Route within a Route. The outer Route is responsible for rendering the general layout and the inner Route is responsible for rendering the specific content for the sub-route.
+
+React Router reads from top to bottom when determening which one of the sub routes to use.
+
 ## Show an example of using sub routing with the element.
+
+```JS
+import React from 'react';
+import { BrowserRouter, Link, Route, Routes, Outlet } from "react-router-dom";
+
+function Example() {
+    return
+    <>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element="index">
+                    <Route path="home" element="Home"/>
+                    <Route path="about" element="About"/>
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    </>
+}
+
+```
