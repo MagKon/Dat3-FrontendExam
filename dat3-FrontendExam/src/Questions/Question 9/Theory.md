@@ -8,7 +8,13 @@ Green lines is how the global variable ‘text’ is seen. The red line is how t
 
 ## How are controlled components different from uncontrolled components in React forms?
 
+A Controlled Component is one that takes its current value through props and notifies changes through callbacks like onChange. A parent component "controls" it by handling the callback and managing its own state and passing the new values as props to the controlled component. You could also call this a "dumb component".
+
+An Uncontrolled Component is one that stores its own state internally, and you query the DOM using a DOM-Selector to find its current value when you need it. This is a bit more like traditional HTML.
+
 ## Explain the role of the onChange event in form handling and show examples.
+
+The point of onChange is to continously keep sinc of an input with a value in a field. This is often quite useful, except when loading a large DOM, because whenever a state is changed, a rerender is triggered. This can cause slowdown or delay. To solve this, make sure the state is in a component by itself. This way only the component is rerendered
 
 # sub routing
 
