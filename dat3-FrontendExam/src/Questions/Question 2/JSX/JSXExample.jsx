@@ -10,13 +10,15 @@ const JSXExample = () => {
   };
 
   return (
-    <div>
-      <h1>Hello, JSX!</h1>
-      <p>This is an example of JSX usage.</p>
+    <div className="container">
+      <h1 className="display-4">Hello, JSX!</h1>
+      <p className="lead">This is an example of JSX usage.</p>
       <p>
         {name} is {age} years old.
       </p>
-      <button onClick={handleClick}>Toggle Message</button>
+      <button className="btn btn-primary" onClick={handleClick}>
+        Toggle Message
+      </button>
       {showMessage && <p>Button clicked!</p>}
     </div>
   );

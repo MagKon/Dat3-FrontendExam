@@ -1,7 +1,7 @@
 - [x] Question 1
 - [x] Question 2
 - [ ] Question 3 - Deployement
-- [x] Question 4
+- [x] Question 4 - make button that crashes the page - Describe atomic design
 - [x] Question 5
 - [x] Question 6
 - [x] Question 7

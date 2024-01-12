@@ -2,8 +2,8 @@ import React from "react";
 
 function Text({ text }) {
   return (
-    <div>
-      <span>{text}</span>
+    <div className="container">
+      <span className="text">{text}</span>
     </div>
   );
 }

@@ -1,13 +1,16 @@
 import React from "react";
 import Text from "./Text";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Paragraph({ textArray }) {
   return (
-    <div>
-      <p>I am a paragraph</p>
-      {textArray.map((text, index) => (
-        <Text key={index} text={text} />
-      ))}
+    <div className="container">
+      <p className="lead">I am a paragraph</p>
+      <div className="row">
+        {textArray.map((text, index) => (
+          <Text key={index} text={text} />
+        ))}
+      </div>
     </div>
   );
 }

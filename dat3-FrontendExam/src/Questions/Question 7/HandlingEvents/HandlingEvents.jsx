@@ -24,34 +24,42 @@ function HandlingEvents() {
 
   return (
     <>
-      <div>
+      <div className="container">
         <h1>HandlingEvents</h1>
         <p>Username: {formData.username}</p>
         <p>Password: {formData.password}</p>
         <p>Is submitted: {isSubmitted.toString()}</p>
       </div>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Username:
+      <form className="container" onSubmit={handleSubmit}>
+        <div className="mb-3">
+          <label htmlFor="username" className="form-label">
+            Username:
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="username"
             name="username"
             value={formData.username}
             onChange={handleChange}
           />
-        </label>
-        <br />
-        <label>
-          Password:
+        </div>
+        <div className="mb-3">
+          <label htmlFor="password" className="form-label">
+            Password:
+          </label>
           <input
             type="password"
+            className="form-control"
+            id="password"
             name="password"
             value={formData.password}
             onChange={handleChange}
           />
-        </label>
-        <br />
-        <button type="submit">Submit</button>
+        </div>
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
       </form>
     </>
   );

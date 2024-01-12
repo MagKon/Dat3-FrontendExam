@@ -23,6 +23,8 @@ Use CSS media queries to create different layouts for different screen sizes. Th
 
 Use percentages rather than fixed units to define widths so that elements can resize in relation to one another.
 
+## Atomic design
+
 ## From GPT:
 
 Touch-Friendly Design: Ensure that all interactive elements are large enough and spaced well apart to accommodate touch inputs.

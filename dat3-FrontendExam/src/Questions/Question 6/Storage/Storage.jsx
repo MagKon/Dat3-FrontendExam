@@ -21,18 +21,30 @@ function Storage() {
 
   return (
     <>
-      <div>
-        <input
-          type="text"
-          onChange={(e) => {
-            setText(e.target.value);
-          }}
-        ></input>
-        <div>
-          <div>
-            <button onClick={handleLocalClick}>Save to local</button>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 offset-md-3">
+            <input
+              type="text"
+              className="form-control"
+              onChange={(e) => {
+                setText(e.target.value);
+              }}
+            ></input>
+            <div className="mt-3">
+              <div>
+                <button className="btn btn-primary" onClick={handleLocalClick}>
+                  Save to local
+                </button>
+              </div>
+              <button
+                className="btn btn-primary mt-2"
+                onClick={handleSessionClick}
+              >
+                Save to session
+              </button>
+            </div>
           </div>
-          <button onClick={handleSessionClick}>Save to session</button>
         </div>
       </div>
     </>
