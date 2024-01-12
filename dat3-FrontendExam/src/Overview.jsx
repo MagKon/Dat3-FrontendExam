@@ -8,6 +8,7 @@ import Callback from "./Questions/Question 2/Callback/Callback";
 import FlexboxGrid from "./Questions/Question 2/FlexAndGrid/FlexboxGrid";
 import Props from "./Questions/Question 3/Props/Props";
 import Promises from "./Questions/Question 4/Promise/Promises";
+import Error from "./Questions/Question 4/Error handling/Error";
 import ConditionalRendering from "./Questions/Question 5/ConditionalRendering/ConditionalRendering";
 import AsyncExample from "./Questions/Question 5/Async/AsyncExample";
 import UseEffectsExample from "./Questions/Question 6/UseEffects/UseEffectsExample";
@@ -16,6 +17,8 @@ import HandlingEvents from "./Questions/Question 7/HandlingEvents/HandlingEvents
 import Login from "./Questions/Question 7/Login/Login";
 import ListAndKeys from "./Questions/Question 8/ListsAndKeys/ListsAndKeys";
 import Bubbling from "./Questions/Question 8/Bubbling/Bubbling";
+import FormControl from "./Questions/Question 9/FormControl/FormControl";
+import Spread from "./Questions/Question 10/Spread/Spread";
 import UseEffectsExample10 from "./Questions/Question 10/UseEffects/UseEffectsExample";
 import AsyncExample11 from "./Questions/Question 11/Async/AsyncExample";
 import LiftingState from "./Questions/Question 11/LiftingState/LiftingState";
@@ -39,6 +42,7 @@ const routes = [
   { path: "/question3/Props", content: <Props /> },
   {},
   { path: "/question4/Promises", content: <Promises /> },
+  { path: "/question4/Error", content: <Error /> },
   {},
   {
     path: "/question5/ConditionalRendering",
@@ -55,6 +59,9 @@ const routes = [
   { path: "/question8/Bubbling", content: <Bubbling /> },
   { path: "/question8/ListAndKeys", content: <ListAndKeys /> },
   {},
+  { path: "/question9/FormControl", content: <FormControl /> },
+  {},
+  { path: "/question10/Spread", content: <Spread /> },
   { path: "/question10/UseEffectsExample", content: <UseEffectsExample10 /> },
   {},
   { path: "/question11/AsyncExample", content: <AsyncExample11 /> },

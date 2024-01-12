@@ -20,10 +20,24 @@ const ErrorBoundary = ({ children }) => {
 
   return children;
 };
-const MyComponent = () => {
+const Error = () => {
   return (
     <ErrorBoundary>
-      {/* The rest of the component tree goes here */}
+      <ErrorExample />
     </ErrorBoundary>
   );
 };
+
+export default Error;
+
+function ErrorExample() {
+  return (
+    <button
+      onClick={() => {
+        throw new Error("Crashing!!!");
+      }}
+    >
+      Click me
+    </button>
+  );
+}
