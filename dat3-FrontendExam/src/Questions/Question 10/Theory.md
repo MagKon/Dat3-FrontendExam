@@ -2,7 +2,7 @@
 
 The spread operator and the rest operator are both syntactical features in JavaScript that involve the use of three dots (...). However, they have different purposes and behaviors.
 
-The spread operator is used to expand an iterable (such as an array or a string) into individual elements. It allows you to easily copy or combine arrays, pass multiple arguments to a function, or create new arrays or objects. It essentially "spreads" the elements of an iterable.
+The spread operator is used to expand an iterable (such as an array or a string) into individual elements. It allows you to easily copy or combine arrays, pass multiple arguments to a new array or object. It essentially "spreads" the elements of an iterable.
 
 On the other hand, the rest operator is used to gather multiple elements into an array. It allows you to represent an indefinite number of arguments as an array. It is typically used in function parameters to handle variable-length argument lists.
 

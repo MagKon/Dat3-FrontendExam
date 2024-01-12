@@ -7,7 +7,7 @@
 - [x] Question 7
 - [ ] Question 8 - Deployement
 - [ ] Question 9
-- [ ] Question 10 - JS - React - CORS
+- [ ] Question 10 - React - CORS
 - [x] Question 11
 - [x] Question 12
 - [x] Question 13
