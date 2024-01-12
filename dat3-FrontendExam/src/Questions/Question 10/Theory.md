@@ -12,9 +12,19 @@ In summary, the spread operator is used to expand an iterable into individual el
 
 ## What are React Hooks? Provide examples of at least two built-in hooks.
 
+React Hooks are a feature introduced in React 16.8 that allow you to use state and other React features in functional components. Prior to hooks, state management and lifecycle methods were only available in class components. Hooks provide a more concise and flexible way to write reusable and stateful logic in functional components.
+
+Hooks are functions that you can use in your functional components to add state, side effects, and other React features. They are called "hooks" because they allow you to "hook into" React's internal state and lifecycle features.
+
 ## Explain the difference between useState and useEffect.
 
+useState is used to keep check of a controlled value.
+
+useEffect is used to handle side effects of a render in React.
+
 ## Show example of how you handle errors in React.
+
+See question 4 for error boundry and catching of promise.
 
 # Describe conceptually what Same Origin Policy and CORS is, and how we avoid getting CORS errors when fetching data from an API.
 
@@ -25,3 +35,5 @@ Cross-Origin Resource Sharing (CORS) is a mechanism that relaxes the Same Origin
 To avoid CORS errors when fetching data from an API, the server needs to include the appropriate CORS headers in its response. These headers specify the allowed origins, methods, and headers for cross-origin requests. The most common CORS header is "Access-Control-Allow-Origin", which specifies the allowed origins.
 
 By configuring the server to include the necessary CORS headers, the browser will allow the client-side code to access the API's resources without triggering CORS errors.
+
+We handle it server side, because errors occured when applying anything client side.

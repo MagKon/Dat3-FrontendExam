@@ -19,6 +19,7 @@ import ListAndKeys from "./Questions/Question 8/ListsAndKeys/ListsAndKeys";
 import Bubbling from "./Questions/Question 8/Bubbling/Bubbling";
 import FormControl from "./Questions/Question 9/FormControl/FormControl";
 import Spread from "./Questions/Question 10/Spread/Spread";
+import CustomExample from "./Questions/Question 10/Custom Hook/CustomExample";
 import UseEffectsExample10 from "./Questions/Question 10/UseEffects/UseEffectsExample";
 import AsyncExample11 from "./Questions/Question 11/Async/AsyncExample";
 import LiftingState from "./Questions/Question 11/LiftingState/LiftingState";
@@ -62,6 +63,7 @@ const routes = [
   { path: "/question9/FormControl", content: <FormControl /> },
   {},
   { path: "/question10/Spread", content: <Spread /> },
+  { path: "/question10/CustomExample", content: <CustomExample /> },
   { path: "/question10/UseEffectsExample", content: <UseEffectsExample10 /> },
   {},
   { path: "/question11/AsyncExample", content: <AsyncExample11 /> },
