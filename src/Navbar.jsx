@@ -79,6 +79,15 @@ function Navbar() {
 
   const routesToFrom = [routes1to3, routes4to6, routes7to9, routes10to13];
 
+  function cleanName(path) {
+    let str = path.slice(1); // Remove the leading slash
+    let words = str.split("/"); // Split the string into words
+    words[0] = words[0].replace(/(\d+)/g, " $1"); // Insert a space before the number
+    words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1); // Capitalize the first word
+    let result = words.join(" "); // Join the words back together with spaces
+    return result;
+  }
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
@@ -119,7 +128,7 @@ function Navbar() {
                     {routes.map((route, index) => (
                       <li key={index}>
                         <Link to={route.path} className="dropdown-item">
-                          {route.path}
+                          {cleanName(route.path)}
                         </Link>
                       </li>
                     ))}
