@@ -15,3 +15,13 @@ In JavaScript, the map function is used to iterate over an array and perform ope
 When rendering lists in React, you can use the map function to transform each item in the array into a JSX element. Each item in the array will correspond to a DOM element on the page.
 
 # Describe conceptually what HTTPS is and how we got it working on our deployed websites.
+
+HTTPS stands for Hyper Text Transfer Protocol Secure. It is the secure version of HTTP, the protocol over which data is sent between your browser and the website that you are connected to. The 'S' at the end of HTTPS stands for 'Secure'. It means all communications between your browser and the website are encrypted.
+
+As HTTPS is sequred, a certificate is required. This is made with "Let's Encrypt", which automatically creates a certificate. Automatic Certificate Management Environment (ACME) is then used by Traefik to work with LE, so it can obtain the certificates and renew them.
+
+Copilot:
+
+Let's Encrypt for SSL certificates: You have configured Traefik to use Let's Encrypt for automatic SSL certificate generation. Let's Encrypt is a free, automated, and open certificate authority that provides SSL certificates required for HTTPS.
+
+ACME Protocol: The Automatic Certificate Management Environment (ACME) protocol is used by Traefik to communicate with Let's Encrypt and handle the tasks of obtaining certificates, as well as the automatic renewal of certificates.

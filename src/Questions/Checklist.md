@@ -5,7 +5,7 @@
 - [x] Question 5
 - [x] Question 6
 - [x] Question 7
-- [ ] Question 8 - Deployement
+- [x] Question 8
 - [x] Question 9
 - [x] Question 10
 - [x] Question 11
