@@ -25,6 +25,8 @@ Use percentages rather than fixed units to define widths so that elements can re
 
 ## Atomic design
 
+![Atomic design](<1 k4zeD37QszdKJ1mnZVQW5Q.png>)
+
 ## From GPT:
 
 Touch-Friendly Design: Ensure that all interactive elements are large enough and spaced well apart to accommodate touch inputs.
