@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Components from "./Questions/Question 1/Components/Components";
 import HigherOrder from "./Questions/Question 1/HigherOrder/HigherOrder";
@@ -83,7 +83,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Navbar
           </a>
           <button
@@ -117,8 +117,10 @@ function Navbar() {
                   </a>
                   <ul className="dropdown-menu">
                     {routes.map((route, index) => (
-                      <li key={index} className="dropdown-item">
-                        <Link to={route.path}>{route.path}</Link>
+                      <li key={index}>
+                        <Link to={route.path} className="dropdown-item">
+                          {route.path}
+                        </Link>
                       </li>
                     ))}
                   </ul>

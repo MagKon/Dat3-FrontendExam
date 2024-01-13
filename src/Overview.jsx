@@ -109,6 +109,14 @@ const Overview = () => {
 
       <div style={{ alignSelf: "center" }}>
         <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <h1>Welcome to my examples!</h1>
+              </div>
+            }
+          />
           {routes.map((route, index) => (
             <Route
               key={index}
