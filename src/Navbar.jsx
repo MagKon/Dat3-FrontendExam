@@ -35,11 +35,11 @@ import "./overview.css";
 
 function Navbar() {
   const routes = [
-    { path: "/question1/Components", content: <Components /> },
     { path: "/question1/HigherOrder", content: <HigherOrder /> },
+    { path: "/question1/Components", content: <Components /> },
     { path: "/question1/Routing", content: <Example /> },
-    { path: "/question2/JSXExample", content: <JSXExample /> },
     { path: "/question2/Callback", content: <Callback /> },
+    { path: "/question2/JSXExample", content: <JSXExample /> },
     { path: "/question2/FlexboxGrid", content: <FlexboxGrid /> },
     { path: "/question3/Props", content: <Props /> },
     { path: "/question4/Promises", content: <Promises /> },
@@ -49,8 +49,8 @@ function Navbar() {
       content: <ConditionalRendering />,
     },
     { path: "/question5/AsyncExample", content: <AsyncExample /> },
-    { path: "/question6/UseEffectsExample", content: <UseEffectsExample /> },
     { path: "/question6/Storage", content: <Storage /> },
+    { path: "/question6/UseEffectsExample", content: <UseEffectsExample /> },
     { path: "/question7/HandlingEvents", content: <HandlingEvents /> },
     { path: "/question7/Login", content: <Login /> },
     { path: "/question8/Bubbling", content: <Bubbling /> },
