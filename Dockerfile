@@ -1,6 +1,6 @@
 # First stage: build the app
 FROM node:20 as build-stage
-WORKDIR /app
+WORKDIR /dat3-FrontendExam
 COPY package*.json ./
 RUN npm install
 COPY . .
