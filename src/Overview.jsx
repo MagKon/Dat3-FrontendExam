@@ -30,6 +30,7 @@ import HigherOrder13 from "./Questions/Question 13/HigherOrder/HigherOrder";
 import Props13 from "./Questions/Question 13/Props/Props";
 import Login13 from "./Questions/Question 13/Login/Login";
 import "./overview.css";
+import Navbar from "./Navbar";
 
 const routes = [
   { path: "/question1/Components", content: <Components /> },
@@ -84,8 +85,9 @@ const routes = [
 const Overview = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <div className="examples">
-        <h1>Example List</h1>
+      {/* <div className="examples"> */}
+      <Navbar />
+      {/* <h1>Example List</h1>
         <ul>
           {routes.map((route, index) => (
             <>
@@ -103,7 +105,7 @@ const Overview = () => {
             </>
           ))}
         </ul>
-      </div>
+      </div> */}
 
       <div style={{ alignSelf: "center" }}>
         <Routes>

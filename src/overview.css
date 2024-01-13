@@ -21,3 +21,11 @@
     display: block;
   }
 }
+
+.custom-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  width: 100%;
+}
