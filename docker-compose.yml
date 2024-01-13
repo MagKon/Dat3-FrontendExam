@@ -38,7 +38,7 @@ services:
 
   backend:
     image: "magkon/frontendexam:backend"
-    container_name: "frontendexam"
+    container_name: "frontendexambackend"
     networks:
       - backend
     labels:

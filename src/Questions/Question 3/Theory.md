@@ -19,3 +19,9 @@ A component allows for modular rendering, and the properties, props, allows a co
 States are instead meant to be a fluid value, which is often used as a storage for something that causes a rerender when changed. States are a powerful tool for DOM manipulation as it allows React to quickly rerender the page.
 
 # Describe conceptually how we deploy a React frontend application to a docker container on a virtual machine.
+
+Create Github worfklow, which builds and pushes the project to Docker
+
+Create Dockerfile for the building of the project
+
+On VM, create or pull a Docker compose file with the setup for the Docker containers. We use Nginx and traefic.
