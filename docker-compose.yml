@@ -36,19 +36,19 @@ services:
       - "traefik.http.routers.frontendexam.tls.certresolver=myresolver"
       - "com.centurylinklabs.watchtower.enable=true"
 
-  backend:
-    image: "magkon/frontendexam:backend"
-    container_name: "frontendexambackend"
-    networks:
-      - backend
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.europe.rule=Host(`api.magkon.dk`) || Host(`magkon.dk`)"
-      - "traefik.http.routers.europe.entrypoints=websecure"
-      - "traefik.http.routers.europe.tls.certresolver=myresolver"
-      - "com.centurylinklabs.watchtower.enable=true"
-    ports:
-      - "7007:7007"
+  # backend:
+  #   image: "magkon/frontendexam:backend"
+  #   container_name: "frontendexambackend"
+  #   networks:
+  #     - backend
+  #   labels:
+  #     - "traefik.enable=true"
+  #     - "traefik.http.routers.europe.rule=Host(`api.magkon.dk`) || Host(`magkon.dk`)"
+  #     - "traefik.http.routers.europe.entrypoints=websecure"
+  #     - "traefik.http.routers.europe.tls.certresolver=myresolver"
+  #     - "com.centurylinklabs.watchtower.enable=true"
+  #   ports:
+  #     - "7007:7007"
 
   db:
     image: postgres:latest
