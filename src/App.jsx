@@ -6,10 +6,7 @@ import Overview from "./Overview";
 function App() {
   document
     .getElementsByTagName("body")[0]
-    .setAttribute(
-      "data-bs-theme",
-      sessionStorage.getItem("theme") || sessionStorage.setItem("theme", "dark")
-    );
+    .setAttribute("data-bs-theme", "dark");
   return (
     <>
       <BrowserRouter>
