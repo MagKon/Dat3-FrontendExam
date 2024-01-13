@@ -27,4 +27,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/frontendsecure:latest
-          working-directory: ./dat3-FrontendExam
